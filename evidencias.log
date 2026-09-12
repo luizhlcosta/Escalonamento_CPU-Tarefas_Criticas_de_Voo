@@ -375,4 +375,510 @@ não se o que escrevo ainda aqui
 não se o que escrevo ainda aqui
 Tarefa [0] escolhida
 não se o que escrevo ainda aqui
-não se o que
+não se o queScript started on 2026-09-12 13:58:04-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="214" LINES="34"]
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ make
+[?2004lgcc -o scheduler src/main.c -Wall -Wextra -Werror
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ ./scheduler rate voo.txt
+[?2004lTempo total de simulacao: 100
+Tarefa 1: ATT, PERIODO: 20, DEADLINE: 12, BURST: 8
+Tarefa 2: NAV, PERIODO: 50, DEADLINE: 30, BURST: 15
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+[ATT] perdidas = 0, concluidas = 5, mortas = 0
+
+[NAV] perdidas = 1, concluidas = 1, mortas = 0
+[ATT] for 8 units - F[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 16 units - F[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 24 units - F[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 32 units - F[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - F[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 40 units - F[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ ./scheduler rate voo.txt[Kmake[[K
+[?2004lgcc -o scheduler src/main.c -Wall -Wextra -Werror
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ make./scheduler rate voo.txt
+[?2004lTempo total de simulacao: 100
+Tarefa 1: ATT, PERIODO: 20, DEADLINE: 12, BURST: 8
+Tarefa 2: NAV, PERIODO: 50, DEADLINE: 30, BURST: 15
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+[ATT] perdidas = 0, concluidas = 5, mortas = 0
+
+[NAV] perdidas = 1, concluidas = 1, mortas = 0
+[ATT] for 8 units - F[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 16 units - F[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 24 units - F[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 32 units - F[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - F[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 40 units - F[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H
+[ATT] for 40 units - H[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ make
+[?2004lmake: Nothing to be done for 'all'.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ make
+[?2004lgcc -o scheduler src/main.c -Wall -Wextra -Werror
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ make./scheduler rate voo.txt
+[?2004lTempo total de simulacao: 100
+Tarefa 1: ATT, PERIODO: 20, DEADLINE: 12, BURST: 8
+Tarefa 2: NAV, PERIODO: 50, DEADLINE: 30, BURST: 15
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+[ATT] perdidas = 0, concluidas = 5, mortas = 0
+
+[NAV] perdidas = 1, concluidas = 1, mortas = 0
+[ATT] for 8 units - F[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 8 units - H[ATT] for 16 units - F[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 16 units - H[ATT] for 24 units - F[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 24 units - H[ATT] for 32 units - F[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - F[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 32 units - H[ATT] for 40 units - F[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H[ATT] for 40 units - H
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ make
+[?2004lgcc -o scheduler src/main.c -Wall -Wextra -Werror
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ make./scheduler rate voo.txt
+[?2004lTempo total de simulacao: 100
+Tarefa 1: ATT, PERIODO: 20, DEADLINE: 12, BURST: 8
+Tarefa 2: NAV, PERIODO: 50, DEADLINE: 30, BURST: 15
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+Tarefa [1] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+Tarefa [0] escolhida
+
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+Nenhuma tarefa escolhida... 
+[ATT] perdidas = 0, concluidas = 5, mortas = 0
+
+[NAV] perdidas = 1, concluidas = 1, mortas = 0
+
+[ATT] for 8 units - F
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 8 units - H
+[ATT] for 16 units - F
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 16 units - H
+[ATT] for 24 units - F
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 24 units - H
+[ATT] for 32 units - F
+[ATT] for 32 units - H
+[ATT] for 32 units - H
+[ATT] for 32 units - H
+[ATT] for 32 units - H
+[ATT] for 32 units - F
+[ATT] for 32 units - H
+[ATT] for 32 units - H
+[ATT] for 32 units - H
+[ATT] for 32 units - H
+[ATT] for 32 units - H
+[ATT] for 32 units - H
+[ATT] for 40 units - F
+[ATT] for 40 units - H
+[ATT] for 40 units - H
+[ATT] for 40 units - H
+[ATT] for 40 units - H
+[ATT] for 40 units - H
+[ATT] for 40 units - H
+[ATT] for 40 units - H
+[ATT] for 40 units - H
+[ATT] for 40 units - H
+[ATT] for 40 units - H
+[ATT] for 40 units - H[ATT] for 40 units - H
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de
