@@ -8,8 +8,15 @@ typedef struct tarefa {
     char nome[50];
     long PERIODO;
     long BURST;
-    long DEADLINE;
+    long DEADLINE; //deadline relativo, caracterisca da propria tarefa 
+    long deadline_absoluto;
+    long contador_perdidas;
+    long contador_mortas;
+    long contador_concluidas;
+    long tempo_restante;
+
 } tarefa;
+
 
 int converter_long(const char *str, long *saida) {
 
@@ -167,7 +174,46 @@ int main(int argc, char *argv[]) {
         }
         
         fclose(arquivo);
+        
+        //long instante_chegada;
+    
+    
+        for(long instante_atual = 0; instante_atual < tempoTotalSimulacao; instante_atual++) {
+            for(long tarefa_atual = 0; tarefa_atual < contadorTarefas; tarefa_atual++) {
+                if(instante_atual % listaTarefas[tarefa_atual].PERIODO == 0) {
+                    listaTarefas[tarefa_atual].tempo_restante = listaTarefas[tarefa_atual].BURST;
+                    listaTarefas[tarefa_atual].deadline_absoluto = instante_atual + listaTarefas[tarefa_atual].DEADLINE;
+                }
+    
+                if(instante_atual == listaTarefas[tarefa_atual].deadline_absoluto && listaTarefas[tarefa_atual].tempo_restante > 0) {
+                    listaTarefas[tarefa_atual].contador_perdidas ++;
+                    listaTarefas[tarefa_atual].tempo_restante = 0;
+                }
+
+                if(listaTarefas[tarefa_atual].tempo_restante == 0) {
+                    listaTarefas[tarefa_atual].contador_concluidas++;
+                
+                }
+            }
+
+            long tarefa_escolhida = 0;
+            for(long tarefa_atual = 0; tarefa_atual <= contadorTarefas - 1; tarefa_atual++) {
+
+                if(listaTarefas[tarefa_atual].PERIODO < listaTarefas[tarefa_escolhida].PERIODO  && listaTarefas[tarefa_atual].tempo_restante > 0) {
+                    tarefa_escolhida = tarefa_atual;
+                }
+                printf("não se o que escrevo ainda aqui");
+            }
+
+            if(listaTarefas[tarefa_escolhida].tempo_restante > 0) {
+                printf("Tarefa [%ld] escolhida\n", tarefa_escolhida); //somente debug
+            } else {
+                printf("Nenhuma tarefa escolhida... ");
+            }
+        }
+
     }
+    
 
 
     return 0;
