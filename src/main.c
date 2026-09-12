@@ -190,31 +190,35 @@ int main(int argc, char *argv[]) {
                     listaTarefas[tarefa_atual].tempo_restante = 0;
                 }
 
-                if(listaTarefas[tarefa_atual].tempo_restante == 0) {
-                    listaTarefas[tarefa_atual].contador_concluidas++;
-                
-                }
             }
 
             long tarefa_escolhida = 0;
             for(long tarefa_atual = 0; tarefa_atual <= contadorTarefas - 1; tarefa_atual++) {
 
-                if(listaTarefas[tarefa_atual].PERIODO < listaTarefas[tarefa_escolhida].PERIODO  && listaTarefas[tarefa_atual].tempo_restante > 0) {
+                if(listaTarefas[tarefa_atual].tempo_restante > 0 && (listaTarefas[tarefa_escolhida].tempo_restante == 0 || listaTarefas[tarefa_atual].PERIODO < listaTarefas[tarefa_escolhida].PERIODO)) {
                     tarefa_escolhida = tarefa_atual;
                 }
-                printf("não se o que escrevo ainda aqui");
+                printf("não se o que escrevo ainda aqui\n");
             }
 
             if(listaTarefas[tarefa_escolhida].tempo_restante > 0) {
                 printf("Tarefa [%ld] escolhida\n", tarefa_escolhida); //somente debug
+                listaTarefas[tarefa_escolhida].tempo_restante--;
+                if(listaTarefas[tarefa_escolhida].tempo_restante == 0) {
+                    listaTarefas[tarefa_escolhida].contador_concluidas++;
+                }
             } else {
-                printf("Nenhuma tarefa escolhida... ");
+                printf("\nNenhuma tarefa escolhida... ");
             }
         }
 
+        for(int i = 0; i < contadorTarefas; i++) {
+            if(listaTarefas[i].tempo_restante > 0) {
+                listaTarefas[i].contador_mortas++;
+            }
+            printf("\n[%s] perdidas = %ld, concluidas = %ld, mortas = %ld\n", listaTarefas[i].nome, listaTarefas[i].contador_perdidas, listaTarefas[i].contador_concluidas, listaTarefas[i].contador_mortas);
+        }
     }
     
-
-
     return 0;
 }
