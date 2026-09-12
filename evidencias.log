@@ -124,3 +124,255 @@ não se o que escrevo ainda aquinão se o que escrevo ainda aquiNenhuma tarefa e
 [?2004lexit
 
 Script done on 2026-09-11 22:22:10-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-09-11 22:55:57-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="214" LINES="22"]
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ make
+[?2004lgcc -o scheduler src/main.c -Wall -Wextra -Werror
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Escalonamento_CPU-Tarefas_Criticas_de_Voo[00m$ make./scheduler rate voo.txt
+[?2004lTempo total de simulacao: 100
+Tarefa 1: ATT, PERIODO: 20, DEADLINE: 12, BURST: 8
+Tarefa 2: NAV, PERIODO: 50, DEADLINE: 30, BURST: 15
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+
+Nenhuma tarefa escolhida... não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+
+Nenhuma tarefa escolhida... não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+
+Nenhuma tarefa escolhida... não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+
+Nenhuma tarefa escolhida... não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+
+Nenhuma tarefa escolhida... não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+
+Nenhuma tarefa escolhida... não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+
+Nenhuma tarefa escolhida... não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+
+Nenhuma tarefa escolhida... não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [1] escolhida
+não se o que escrevo ainda aqui
+não se o que escrevo ainda aqui
+Tarefa [0] escolhida
+não se o que escrevo ainda aqui
+não se o que
