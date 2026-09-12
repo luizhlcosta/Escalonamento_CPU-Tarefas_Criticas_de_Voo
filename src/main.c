@@ -111,19 +111,6 @@ int main(int argc, char *argv[]) {
     }
     
     if(strcmp(argv[1], "rate") == 0) {
-    
-    } else if(strcmp(argv[1], "edf") == 0) {
-    
-    } else {
-        fprintf(stderr, "Error: Modo invalido. Use 'rate' ou 'edf'.\n");
-        exit(1);
-    }
-
-    if (strlen(argv[2]) < 4) {
-        fprintf(stderr, "Error: Nome de arquivo invalido.\n");
-        exit(1);
-        
-    } else {
         FILE *arquivo = fopen(argv[2], "r");
         if (arquivo == NULL) {
             fprintf(stderr, "Error: Nao foi possivel abrir o arquivo '%s'.\n", argv[2]);
@@ -167,7 +154,7 @@ int main(int argc, char *argv[]) {
                 listaTarefas[contadorTarefas].BURST = novaTarefa.BURST;
                 listaTarefas[contadorTarefas].DEADLINE = novaTarefa.DEADLINE;
                 contadorTarefas++;
-
+                
                 printf("Tarefa %d: %s, PERIODO: %ld, DEADLINE: %ld, BURST: %ld\n", contadorTarefas, novaTarefa.nome, novaTarefa.PERIODO, novaTarefa.DEADLINE, novaTarefa.BURST);
             }
             
@@ -175,10 +162,15 @@ int main(int argc, char *argv[]) {
         
         fclose(arquivo);
         
-        //long instante_chegada;
-    
-    
-        for(long instante_atual = 0; instante_atual < tempoTotalSimulacao; instante_atual++) {
+        long instante_atual;
+        char registroEvento[tempoTotalSimulacao];
+        long registroExecucao[tempoTotalSimulacao];
+
+        for(int i = 0; i < tempoTotalSimulacao; i++) {
+            registroEvento[i] = ' ';
+        }
+
+        for(instante_atual = 0; instante_atual < tempoTotalSimulacao; instante_atual++) {
             for(long tarefa_atual = 0; tarefa_atual < contadorTarefas; tarefa_atual++) {
                 if(instante_atual % listaTarefas[tarefa_atual].PERIODO == 0) {
                     listaTarefas[tarefa_atual].tempo_restante = listaTarefas[tarefa_atual].BURST;
@@ -186,8 +178,9 @@ int main(int argc, char *argv[]) {
                 }
     
                 if(instante_atual == listaTarefas[tarefa_atual].deadline_absoluto && listaTarefas[tarefa_atual].tempo_restante > 0) {
-                    listaTarefas[tarefa_atual].contador_perdidas ++;
+                    listaTarefas[tarefa_atual].contador_perdidas++;
                     listaTarefas[tarefa_atual].tempo_restante = 0;
+                    registroEvento[instante_atual] = 'L';
                 }
 
             }
@@ -198,27 +191,84 @@ int main(int argc, char *argv[]) {
                 if(listaTarefas[tarefa_atual].tempo_restante > 0 && (listaTarefas[tarefa_escolhida].tempo_restante == 0 || listaTarefas[tarefa_atual].PERIODO < listaTarefas[tarefa_escolhida].PERIODO)) {
                     tarefa_escolhida = tarefa_atual;
                 }
-                printf("não se o que escrevo ainda aqui\n");
+                registroExecucao[instante_atual] = tarefa_escolhida;
             }
 
             if(listaTarefas[tarefa_escolhida].tempo_restante > 0) {
                 printf("Tarefa [%ld] escolhida\n", tarefa_escolhida); //somente debug
                 listaTarefas[tarefa_escolhida].tempo_restante--;
+                registroExecucao[instante_atual] = tarefa_escolhida;
+                
                 if(listaTarefas[tarefa_escolhida].tempo_restante == 0) {
                     listaTarefas[tarefa_escolhida].contador_concluidas++;
+                    registroExecucao[instante_atual] = tarefa_escolhida;
+                    registroEvento[instante_atual] = 'F';
+                }
+                if(instante_atual == tempoTotalSimulacao - 1) {
+                    if(listaTarefas[tarefa_escolhida].tempo_restante > 0) {
+                        registroExecucao[instante_atual] = tarefa_escolhida;
+                        registroEvento[instante_atual] = 'K';
+                        
+                    }
                 }
             } else {
                 printf("\nNenhuma tarefa escolhida... ");
+                registroExecucao[instante_atual] = -1;
+                registroEvento[instante_atual] = ' ';
             }
+            
         }
 
-        for(int i = 0; i < contadorTarefas; i++) {
-            if(listaTarefas[i].tempo_restante > 0) {
-                listaTarefas[i].contador_mortas++;
+        for(instante_atual = 0; instante_atual < contadorTarefas; instante_atual++) {
+            if(listaTarefas[instante_atual].tempo_restante > 0) {
+                listaTarefas[instante_atual].contador_mortas++;
             }
-            printf("\n[%s] perdidas = %ld, concluidas = %ld, mortas = %ld\n", listaTarefas[i].nome, listaTarefas[i].contador_perdidas, listaTarefas[i].contador_concluidas, listaTarefas[i].contador_mortas);
+            printf("\n[%s] perdidas = %ld, concluidas = %ld, mortas = %ld\n", listaTarefas[instante_atual].nome, listaTarefas[instante_atual].contador_perdidas, listaTarefas[instante_atual].contador_concluidas, listaTarefas[instante_atual].contador_mortas);
         }
+
+        long bloco_atual = registroExecucao[0];
+        long duracao_tarefa = 1;
+
+        for(instante_atual = 1; instante_atual < tempoTotalSimulacao; instante_atual++) {
+            if(registroExecucao[instante_atual] == bloco_atual) {
+                duracao_tarefa++;
+            } else {
+                if(bloco_atual == -1) {
+                    printf("\nIdle for %ld units", duracao_tarefa);
+                } else {
+                    char letra = registroEvento[instante_atual-1];
+                    if(letra == ' ') {
+                        letra = 'H';
+                    }
+                    printf("\n[%s] for %ld units - %c", listaTarefas[bloco_atual].nome, duracao_tarefa, letra);
+                }
+                bloco_atual = registroExecucao[instante_atual];
+                duracao_tarefa = 1;
+            }
+        }
+        
+        if(bloco_atual == -1) {
+            printf("\nIdle for %ld units", duracao_tarefa);
+        } else {
+            char letra = registroEvento[tempoTotalSimulacao- 1];
+            if(letra == ' ') {
+                letra = 'H';
+            }
+            printf("[%s] for %ld units - %c\n", listaTarefas[bloco_atual].nome, duracao_tarefa, letra);
+        }
+
+    } else if(strcmp(argv[1], "edf") == 0) {
+    
+    } else {
+        fprintf(stderr, "Error: Modo invalido. Use 'rate' ou 'edf'.\n");
+        exit(1);
     }
+
+    if (strlen(argv[2]) < 4) {
+        fprintf(stderr, "Error: Nome de arquivo invalido.\n");
+        exit(1);
+        
+    } 
     
     return 0;
 }
