@@ -7,6 +7,6 @@ scheduler: src/main.c
 	$(CC) -o scheduler src/main.c $(CFLAGS)
 
 clean:
-	rm -f src/*.o scheduler
+	rm -f src/*.o scheduler *.out
 	
 .PHONY: all clean
